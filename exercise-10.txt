@@ -1,0 +1,16 @@
+SELECT COUNT(id)
+FROM Entry
+WHERE birthday < '1982-02-12'
+;
+
+
+SELECT COUNT(id)
+FROM Entry
+WHERE birthday >= '1965-01-01'
+;
+
+
+SELECT MIN(birthday)
+FROM Entry
+
+

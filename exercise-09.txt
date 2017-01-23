@@ -1,0 +1,10 @@
+SELECT COUNT(id)
+FROM Account;
+
+
+SELECT COUNT(id)
+FROM AddressBook;
+
+
+SELECT COUNT(id)
+FROM Entry;

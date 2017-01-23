@@ -1,0 +1,13 @@
+SELECT count(id)   
+FROM Entry  
+WHERE type <> 'other';
+
+
+SELECT count(id)  
+FROM Entry 
+WHERE type in ('home','work');
+
+
+SELECT count(id)   
+FROM Entry  
+WHERE subtype = 'phones';
